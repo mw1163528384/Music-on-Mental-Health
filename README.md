@@ -5,9 +5,9 @@ This is the repository for Music on Mental Health. It is a deep learning project
 ## Setup
 
 #### Library Dependcies
-git clone https://github.com/mw1163528384/Music-on-Mental-Health.git
-cd Music-on-Mental-Health
-pip install -r requirements.txt
+- git clone https://github.com/mw1163528384/Music-on-Mental-Health.git
+- cd Music-on-Mental-Health
+- pip install -r requirements.txt
 
 #### File Structure
 The original data is uploaded in the repository under Data/dataset. The output folder under Data contains the cleaned data and the pre-processed data.
