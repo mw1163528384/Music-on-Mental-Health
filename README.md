@@ -2,6 +2,9 @@
  
 This is the repository for Music on Mental Health. It is a deep learning project on examining music effect on mental health by recommending the top 3 genres of music to the patients. The dataset is obtained through Kaggle: https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
 
+### Report
+Our report link: https://docs.google.com/document/d/1PN0p0fgKX2zoiG78AGYoQzMPJpyuctX5bF5VZHMUP58/edit?usp=sharing
+
 ## Setup
 
 #### Library Dependcies
