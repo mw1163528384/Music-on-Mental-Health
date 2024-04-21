@@ -1,10 +1,6 @@
 # Music on Mental Health
  
-This is the repository for Music on Mental Health. It is a deep learning project on examining music effect on mental health by recommending the top 3 genres of music to the patients. The dataset is obtained through Kaggle: https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
-
-## Report
-
-Our report link: https://docs.google.com/document/d/1PN0p0fgKX2zoiG78AGYoQzMPJpyuctX5bF5VZHMUP58/edit?usp=sharing
+This is the repository for Music on Mental Health. The goal for this project is to explore how different music genres and listening habits can affect a person suffering from various mental health issues from the dataset. Based on the user’s mental issues, and demographics, train and test a model that informs the user if their favourite music genre is improving their mental health issues. The dataset is obtained through Kaggle: https://www.kaggle.com/datasets/catherinerasgaitis/mxmh-survey-results
 
 ## Setup
 
@@ -14,6 +10,18 @@ Our report link: https://docs.google.com/document/d/1PN0p0fgKX2zoiG78AGYoQzMPJpy
 - pip install -r requirements.txt
 
 #### File Structure
-The original data is uploaded in the repository under Data/dataset. The output folder under Data contains the cleaned data and the pre-processed data.
 
-All the work has been done in notebook, with data analysis and models trained. The data anlysis consists of full step of data understanding, data cleaning, data pre-processing and data visualization. There are 2 models are trained CNN and MLP with a final model used as well as the evaluation result.
+The Code folder include.ipynb:
+- data_process_analysis.ipynb: data understanding, data cleaning, data pre-processing and data visualization
+- cnn_model.ipynb: CNN model
+- CTGAN and Data Preprocessing.ipynb: expanding datset
+- cnn_model_CTGAN.ipynb: CNN model using expanded datset
+- mlp_model.ipynb: MLP model
+
+
+The Data folder include:
+- mxmh_survey_sesults.csv: The original Dataset
+- data_cleaned.csv: the cleaned dataset
+- encoded.csv: the processed dataset after cleaning
+- data_cleaned_expand.scv: the cleaned dataset after expanding
+- encodedCTGAN.csv: the processed dataset after expanding & cleaning
