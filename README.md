@@ -11,7 +11,7 @@ This is the repository for Music on Mental Health. The goal for this project is 
 
 #### File Structure
 
-The Code folder include.ipynb:
+The Code folder include:
 - data_process_analysis.ipynb: data understanding, data cleaning, data pre-processing and data visualization
 - cnn_model.ipynb: CNN model
 - CTGAN and Data Preprocessing.ipynb: expanding datset
